@@ -1,15 +1,24 @@
 import RestoApiSource from '../../data/restoapi-source';
+import { createRestoItemTemplate } from '../templates/template-creator';
 
 const ExploreResto = {
   async render() {
     return `
-        <h2>Explore Restaurants</h2>
+        <div class="content">
+          <h2 class="content__heading">Explore Restaurants</h2>
+          <div id="restaurant" class="restaurant">
+  
+          </div>
+        </div>
       `;
   },
 
   async afterRender() {
     const resto = await RestoApiSource.exploreResto();
-    console.log(resto);
+    const restoContainer = document.querySelector('#restaurant');
+    resto.forEach((restoran) => {
+      restoContainer.innerHTML += createRestoItemTemplate(restoran);
+    });
   },
 };
 

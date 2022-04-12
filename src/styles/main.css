@@ -166,7 +166,7 @@ main {
 }
 
 /*
-  Restaurant
+  Restaurant //Movies
 */
  
 .restaurant {
@@ -179,13 +179,13 @@ main {
 
 
 /*
-  Resto Item
+  Resto Item // Movie Item
 */
  
 .resto-item {
     width: 100%;
     box-shadow: 2px 2px 12px rgba(0,0,0,0.4);
-    border-radius: 0 50px 50px 50px;
+    border-radius: 0 20px 20px 20px;
     overflow: hidden;
   }
 
@@ -226,6 +226,7 @@ main {
    
 .resto-item .resto-item__content p {
     overflow: hidden;
+    margin: 0 0 10px 0;
     text-overflow: ellipsis;
     display: -webkit-box;
     -webkit-line-clamp: 4; /* number of lines to show */
@@ -234,7 +235,7 @@ main {
 
 
 /*
-  Movie
+  Resto //Movie
 */
  
 .resto {
@@ -249,6 +250,8 @@ main {
   .resto .resto__poster {
     width: 100%;
     max-width: 400px;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.4);
+    border-radius: 20px 20px 20px 20px;
   }
    
   .resto .resto__info h4 {
