@@ -220,7 +220,7 @@ main {
 }
    
 .resto-item .resto-item__content h3 a {
-    color: #db0000;
+    color: #29BB89;
     text-decoration: none;
 }
    
@@ -257,6 +257,48 @@ main {
   .resto .resto__info h4 {
     margin: 8px 0;
   }
+
+  /*
+    Review
+*/
+
+.resto__overview{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+  margin: 20px 0;
+}
+
+.customers__review{
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.review__info{
+  border-radius: 20px 20px 20px 20px;
+  box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.2);
+  background-color: #ffffff;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.review__info h6{
+  color: #29BB89;
+  font-size: 22px;
+  margin: 2px;
+}
+
+.review__info p{
+  font-size: 16px;
+  margin: 2px;
+}
+
+.review__info .date__review{
+  font-size: 13px;
+  margin: 2px;
+  font-style: italic;
+  color: #534340;
+}
 
  /*
  * footer
