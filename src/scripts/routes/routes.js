@@ -3,7 +3,7 @@ import Detail from '../views/pages/detail';
 
 const routes = {
   '/': ExploreResto,
-  '/expore-resto': ExploreResto,
+  '/explore-resto': ExploreResto,
   '/detail/:id': Detail,
 };
 
