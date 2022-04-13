@@ -1,7 +1,7 @@
 import RestoApiSource from '../../data/restoapi-source';
 import UrlParser from '../../routes/url-parser';
 import LikeButtonInitiator from '../../utils/like-button-initiator';
-import { createLikeButtonTemplate, createRestoDetailTemplate } from '../templates/template-creator';
+import { createRestoDetailTemplate } from '../templates/template-creator';
 
 const Detail = {
   async render() {

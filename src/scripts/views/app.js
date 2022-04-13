@@ -1,6 +1,8 @@
 import DrawerInitiator from '../utils/drawer-initiator';
 import UrlParser from '../routes/url-parser';
 import routes from '../routes/routes';
+import '../component/app-bar';
+import '../component/hero-inner';
 
 class App {
   constructor({ button, drawer, content }) {
@@ -22,8 +24,8 @@ class App {
   }
 
   async renderPage() {
-    const urll = UrlParser.parseActiveUrlWithCombiner();
-    const page = routes[urll];
+    const url = UrlParser.parseActiveUrlWithCombiner();
+    const page = routes[url];
     this._content.innerHTML = await page.render();
     await page.afterRender();
   }

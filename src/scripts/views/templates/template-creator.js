@@ -57,13 +57,13 @@ const createRestoItemTemplate = (resto) => `
   `;
 
 const createLikeButtonTemplate = () => `
-  <button aria-label="like this movie" id="likeButton" class="like">
+  <button aria-label="like this restaurant" id="likeButton" class="like">
   <i class="fa-regular fa-heart"></i>
   </button>
 `;
 
 const createLikedButtonTemplate = () => `
-  <button aria-label="unlike this movie" id="likeButton" class="like">
+  <button aria-label="unlike this restaurant" id="likeButton" class="like">
     <i class="fa-solid fa-heart"></i>
   </button>
 `;
