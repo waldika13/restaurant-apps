@@ -56,4 +56,21 @@ const createRestoItemTemplate = (resto) => `
   </div>
   `;
 
-export { createRestoDetailTemplate, createRestoItemTemplate };
+const createLikeButtonTemplate = () => `
+  <button aria-label="like this movie" id="likeButton" class="like">
+  <i class="fa-regular fa-heart"></i>
+  </button>
+`;
+
+const createLikedButtonTemplate = () => `
+  <button aria-label="unlike this movie" id="likeButton" class="like">
+    <i class="fa-solid fa-heart"></i>
+  </button>
+`;
+
+export {
+  createRestoDetailTemplate,
+  createRestoItemTemplate,
+  createLikeButtonTemplate,
+  createLikedButtonTemplate,
+};
