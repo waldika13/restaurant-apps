@@ -4,6 +4,8 @@ import '../styles/responsive.css';
 import App from './views/app';
 import swRegister from './utils/sw-register';
 
+const loader = document.getElementById('preloader');
+
 const app = new App({
   button: document.querySelector('#hamburgerButton'),
   drawer: document.querySelector('#navigationDrawer'),
@@ -18,4 +20,5 @@ window.addEventListener('load', () => {
   app.renderPage();
   app.darkMode();
   swRegister();
+  loader.style.display = 'none';
 });

@@ -44,6 +44,14 @@ class App {
       drawer.classList.toggle('night');
     });
   }
+
+  async preloader() {
+    const loader = document.getElementById('preloader');
+
+    window.addEventListener('load', () => {
+      loader.style.display = 'none';
+    });
+  }
 }
 
 export default App;
