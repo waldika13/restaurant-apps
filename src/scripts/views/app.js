@@ -1,3 +1,4 @@
+/* eslint-disable class-methods-use-this */
 import DrawerInitiator from '../utils/drawer-initiator';
 import UrlParser from '../routes/url-parser';
 import routes from '../routes/routes';
@@ -28,6 +29,20 @@ class App {
     const page = routes[url];
     this._content.innerHTML = await page.render();
     await page.afterRender();
+  }
+
+  async darkMode() {
+    const content = document.getElementsByTagName('body')[0];
+    const darkMode = document.getElementById('dark-change');
+    const appBar = document.getElementById('app-bar');
+    const drawer = document.getElementById('navigationDrawer');
+
+    darkMode.addEventListener('click', () => {
+      darkMode.classList.toggle('active');
+      content.classList.toggle('night');
+      appBar.classList.toggle('night');
+      drawer.classList.toggle('night');
+    });
   }
 }
 

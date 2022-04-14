@@ -102,6 +102,7 @@ ul li {
   top: 50px;
   left: -180px;
   width: 150px;
+  height: auto;
   transition: all 0.3s;
   padding: 8px;
   background-color: white;
@@ -320,6 +321,79 @@ main {
   margin: 2px;
   font-style: italic;
   color: #534340;
+}
+
+/*
+ * Dark Mode
+ */
+
+ label {
+   position: absolute;
+   width: 45px;
+   height: 22px;
+   right: 22px;
+   top: 25px;
+   border: 2px solid;
+   border-radius: 20px;
+ }
+
+ label::before {
+  position: absolute;
+  content: '';
+  width: 18px;
+  height: 18px;
+  left: 1px;
+  border-radius: 50%;
+  cursor: pointer;
+  background: #18181b;
+  transition: 0.4s;
+}
+
+label.active:before {
+  left: 22px;
+  background: #fff;
+  transition: 0.5s ease;
+}
+
+body.night {
+  transition: 0.5s ease;
+  background: #18181b;
+  color: #fff;
+}
+
+header .app-bar.night {
+  transition: 0.5s ease;
+  background: #18181b;
+  color: #fff;
+}
+
+header .app-bar__navigation.night {
+  transition: 0.5s ease;
+  background: #18181b;
+}
+
+header .app-bar__navigation.night ul li a {
+  color: #fff;
+}
+
+header .app-bar.night h1 {
+  color: white;
+}
+
+header .app-bar.night #hamburgerButton {
+  color: white;
+}
+
+body.night main .content .restaurant .resto-item {
+  background-color: #34343a;
+}
+
+body.night .review__info {
+  background-color: #34343a;
+}
+
+body.night .review__info .date__review {
+  color: #ffffff;
 }
 
 
