@@ -31,6 +31,7 @@ ul li {
     list-style: none;
 }
 
+
 /* 
  * SKIP TO CONTENT
  *
@@ -243,8 +244,9 @@ main {
 }
    
 .resto-item .resto-item__content h3 a {
-    color: #29BB89;
     text-decoration: none;
+    padding-top: 44px;
+    padding-bottom: 44px;
 }
    
 .resto-item .resto-item__content p {
@@ -415,6 +417,14 @@ body.night .review__info {
 
 body.night .review__info .date__review {
   color: #ffffff;
+}
+
+body.night a {
+  color: #29BB89;
+}
+
+body.night a:hover {
+  color: #fff;
 }
 
 

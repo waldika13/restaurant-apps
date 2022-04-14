@@ -18,7 +18,6 @@ class AppBar extends HTMLElement {
               <li><a href="#/like">Favorite</a></li>
               <li><a href="https://www.linkedin.com/in/waldika-irawan-5a1587225/" target="_blank">About Us</a></li>
               <li><label id="dark-change"></label></li>
-              
             </ul>
           </nav>
     </div>

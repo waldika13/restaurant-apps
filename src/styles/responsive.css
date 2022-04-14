@@ -8,6 +8,11 @@
     .menu__overview{
         grid-template-columns: repeat(3, 1fr);
     }
+
+    button {
+        min-width: 44px;
+        min-height: 44px;
+    }
 }
 
 @media screen and (min-width: 650px) {
