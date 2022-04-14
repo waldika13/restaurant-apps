@@ -16,6 +16,7 @@
         "no-empty": "off",
         "no-unused-vars": "off",
         "no-underscore-dangle": "off",
-        "no-restricted-globals": ["error", "event", "fdescribe"]
+        "no-restricted-globals": ["error", "event", "fdescribe"],
+        "class-methods-use-this": "off"
     }
 }
