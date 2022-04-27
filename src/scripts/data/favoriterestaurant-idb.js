@@ -1,3 +1,4 @@
+/* eslint-disable no-empty-function */
 /* eslint-disable consistent-return */
 /* eslint-disable no-prototype-builtins */
 import { openDB } from 'idb';
@@ -32,6 +33,9 @@ const FavoriteRestaurantIdb = {
   },
   async deleteResto(id) {
     return (await dbPromise).delete(OBJECT_STORE_NAME, id);
+  },
+  async searchResto(qeury) {
+
   },
 };
 

@@ -1,5 +1,3 @@
-/* eslint-disable no-undef */
-
 import FavoriteRestaurantIdb from '../src/scripts/data/favoriterestaurant-idb';
 import * as TestFactories from './helper/testFactories';
 

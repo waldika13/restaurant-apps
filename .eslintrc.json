@@ -18,6 +18,9 @@
         "no-underscore-dangle": "off",
         "no-restricted-globals": ["error", "event", "fdescribe"],
         "class-methods-use-this": "off",
-        "no-undef": "error"
+        "no-undef": 0,
+        "consistent-return": 0,
+        "no-return-assign": 0,
+        "no-prototype-builtins": 0
     }
 }

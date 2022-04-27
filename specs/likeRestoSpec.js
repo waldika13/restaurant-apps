@@ -1,4 +1,3 @@
-/* eslint-disable no-undef */
 import { async } from 'regenerator-runtime';
 import FavoriteRestaurantIdb from '../src/scripts/data/favoriterestaurant-idb';
 import * as TestFactories from './helper/testFactories';
@@ -30,7 +29,7 @@ describe('Liking A Restaurant', () => {
     FavoriteRestaurantIdb.deleteResto(1);
   });
 
-  it('should not add a movie again when its already liked', async () => {
+  it('should not add a resto again when its already liked', async () => {
     await TestFactories.createLikeButtonPresenterWithResto({ id: 1 });
 
     // Tambahkan film dengan ID 1 ke daftar film yang disukai
