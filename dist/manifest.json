@@ -15,44 +15,75 @@
     {
       "src": "/icons/icon-96x96.png",
       "sizes": "96x96",
+<<<<<<< HEAD
       "type": "image/png",
       "purpose": "any maskable"
+=======
+      "type": "image/png"
+>>>>>>> 1141202093e624b06405dccd599843e25db893de
     },
     {
       "src": "/icons/icon-128x128.png",
       "sizes": "128x128",
+<<<<<<< HEAD
       "type": "image/png",
       "purpose": "any maskable"
+=======
+      "type": "image/png"
+>>>>>>> 1141202093e624b06405dccd599843e25db893de
     },
     {
       "src": "/icons/icon-144x144.png",
       "sizes": "144x144",
+<<<<<<< HEAD
       "type": "image/png",
       "purpose": "any maskable"
+=======
+      "type": "image/png"
+>>>>>>> 1141202093e624b06405dccd599843e25db893de
     },
     {
       "src": "/icons/icon-152x152.png",
       "sizes": "152x152",
+<<<<<<< HEAD
       "type": "image/png",
       "purpose": "any maskable"
+=======
+      "type": "image/png"
+>>>>>>> 1141202093e624b06405dccd599843e25db893de
     },
     {
       "src": "/icons/icon-192x192.png",
       "sizes": "192x192",
+<<<<<<< HEAD
       "type": "image/png",
       "purpose": "any maskable"
+=======
+      "type": "image/png"
+>>>>>>> 1141202093e624b06405dccd599843e25db893de
     },
     {
       "src": "/icons/icon-384x384.png",
       "sizes": "384x384",
+<<<<<<< HEAD
       "type": "image/png",
       "purpose": "any maskable"
+=======
+      "type": "image/png"
+>>>>>>> 1141202093e624b06405dccd599843e25db893de
     },
     {
       "src": "/icons/icon-512x512.png",
       "sizes": "512x512",
+<<<<<<< HEAD
       "type": "image/png",
       "purpose": "any maskable"
     }
   ]
 }
+=======
+      "type": "image/png"
+    }
+  ]
+}
+>>>>>>> 1141202093e624b06405dccd599843e25db893de

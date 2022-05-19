@@ -56,13 +56,21 @@ const createRestoItemTemplate = (resto) => `
   </div>
   `;
 
+<<<<<<< HEAD
 const createLikeButtonTemplate = () => `
+=======
+const createLikeRestoButtonTemplate = () => `
+>>>>>>> 1141202093e624b06405dccd599843e25db893de
   <button aria-label="like this restaurant" id="likeButton" class="like">
   <i class="fa-regular fa-heart"></i>
   </button>
 `;
 
+<<<<<<< HEAD
 const createLikedButtonTemplate = () => `
+=======
+const createUnlikeRestoButtonTemplate = () => `
+>>>>>>> 1141202093e624b06405dccd599843e25db893de
   <button aria-label="unlike this restaurant" id="likeButton" class="like">
     <i class="fa-solid fa-heart"></i>
   </button>
@@ -71,6 +79,11 @@ const createLikedButtonTemplate = () => `
 export {
   createRestoDetailTemplate,
   createRestoItemTemplate,
+<<<<<<< HEAD
   createLikeButtonTemplate,
   createLikedButtonTemplate,
+=======
+  createLikeRestoButtonTemplate,
+  createUnlikeRestoButtonTemplate,
+>>>>>>> 1141202093e624b06405dccd599843e25db893de
 };
